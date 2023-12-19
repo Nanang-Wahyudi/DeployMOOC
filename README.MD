@@ -149,7 +149,8 @@ server {
 }
 
 ```
-The default port for Spring boot applications are on port 8080 if you changed this be sure to update the port in the above configuration.  
+The default port for the Spring boot application is port 8080, if you change it, make sure to update the port in the above configuration.<br >
+For example, the configuration above has updated the port to 8083.  
 
 After creating the file run the following command `sudo ln -s /etc/nginx/sites-available/<my-appname> /etc/nginx/sites-enabled` to symlink the file to the sites enabled directory.  
 
@@ -166,7 +167,7 @@ Now run `sudo systemctl restart nginx` to restart nginx for the above to take af
 `sudo systemctl status nginx`
 
 ## Deploy
-Run <myservice>.service to start the jar: `sudo systemctl start <myservice>`
+Run `<myservice>.service` to start the jar: `sudo systemctl start <myservice>`
 
 Run nginx: `sudo systemctl start nginx`
 
