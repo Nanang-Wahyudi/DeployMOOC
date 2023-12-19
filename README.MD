@@ -1,5 +1,5 @@
 # Deploy Spring boot on Ubuntu/Nginx
-Instructions for deploying a spring boot application on Ubuntu 16.04 using nginx as a reverse proxy. Setting up the spring boot project not covered. If you want to set up a quick test project you can go to
+Instructions for deploying a spring boot application on Ubuntu using nginx as a reverse proxy. Setting up the spring boot project not covered. If you want to set up a quick test project you can go to
 [Spring initializr](https://start.spring.io)
 
 ## Install Nginx
@@ -166,9 +166,9 @@ Now run `sudo systemctl restart nginx` to restart nginx for the above to take af
 `sudo systemctl status nginx`
 
 ## Deploy
-run <myservice>.service to start the jar: `sudo systemctl start <myservice>`
+Run <myservice>.service to start the jar: `sudo systemctl start <myservice>`
 
-run nginx: `sudo systemctl start nginx`
+Run nginx: `sudo systemctl start nginx`
 
 Now just go to one of the paths set in spring boot and it will be up and running.
 
