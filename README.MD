@@ -16,14 +16,14 @@ Check Nginx version to see if installation was successfull: `nginx -v`
 ## Install Java JRE
 `sudo apt-get update`
 
-Run: `java -version` Command to see how to Install Java JRE. 
+Run: `java -version` to see how to Install Java JRE. 
 
 Check Java JRE version to see if installation was successfull: `java -version`
 
 ## Install Java JDK
 `sudo apt-get update` 
 
-Run: `javac -version` Command to see how to Install Java JDK.  
+Run: `javac -version` to see how to Install Java JDK.  
 
 Check Java JDK version to see if installation was successfull: `javac -version`
 
