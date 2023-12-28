@@ -202,6 +202,7 @@ Displays running Localhost: `dig localhost:5432`
 Displays a detailed list of files and directories: `ls -l`
 
 Displays Spring Log: `sudo journalctl -u mooc.service --since "$(date +'%Y-%m-%d 06:00:00')"`
+Press `F` to scroll log
 
 Check status certbot: `sudo systemctl status certbot.timer`
 
